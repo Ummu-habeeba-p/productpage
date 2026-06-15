@@ -12,6 +12,10 @@ type ProductCardProps = {
 export default function ProductCard({ product }: ProductCardProps) {
   if (!product) return null;
 
+  const image = product.image ?? "";
+  const title = product.title ?? "Product";
+  const price = product.price ?? 0;
+
   return (
     <>
 
@@ -19,16 +23,17 @@ export default function ProductCard({ product }: ProductCardProps) {
       <div className="card h-100">
 
         <img
-          src={product.image}
+          src={image}
+          alt={title}
           className="card-img-top p-3"
           height="250"
           style={{ objectFit: "contain" }}
         />
 
         <div className="card-body">
-          <h6>{product.title}</h6>
+          <h6>{title}</h6>
 
-          <h5>${product.price}</h5>
+          <h5>${price}</h5>
 
           <Link
             href={`/products/${product.id}`}

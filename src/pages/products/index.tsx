@@ -1,5 +1,5 @@
 
-import ProductCard from "../components/productCard/ProductCard"
+import ProductCard from "../../components/productCard/ProductCard";
 import Head from "next/head";
 
 import { ProductService } from "@/services/productService";

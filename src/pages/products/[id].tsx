@@ -1,7 +1,7 @@
 
 import { GetServerSideProps } from "next";
 import Link from "next/link";
-import CartButton from "../components/cartButton/CartButton";
+import CartButton from "../../components/cartButton/CartButton";
 import * as productService from "../../services/productService"
 
 import Head from "next/head";

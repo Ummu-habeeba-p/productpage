@@ -11,11 +11,11 @@
 //   return <Component {...pageProps} />;
 // }
 import type { AppProps } from "next/app";
-import Navbar from "./components/navbar/Navbar" // adjust path if needed
+import Navbar from "../components/navbar/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { useEffect } from "react";
-import Footer from "./components/footer/Footer";
+import Footer from "../components/footer/Footer";
  
 import Head from "next/head";
 
