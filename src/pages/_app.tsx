@@ -28,7 +28,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
      <Head>
-        <title>My Store</title>
+        <title>NexCart</title>
         <meta
           name="description"
           content="My E-commerce Store"

@@ -11,6 +11,8 @@ type ProductCardProps = {
 
 export default function ProductCard({ product }: ProductCardProps) {
   return (
+    <>
+
     <div className="col-md-3 mb-4">
       <div className="card h-100">
 
@@ -36,6 +38,6 @@ export default function ProductCard({ product }: ProductCardProps) {
         </div>
       </div>
     </div>
-  
+  </>
   );
 }

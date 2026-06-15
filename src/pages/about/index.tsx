@@ -9,7 +9,7 @@ function About() {
 
       <p>
 
-      Welcome to Hitkart, your one-stop destination for a seamless and enjoyable online shopping experience. At Hitkart, we are committed to bringing you a wide range of high-quality products at affordable prices, all in one convenient place.
+      Welcome to NexCart, your one-stop destination for a seamless and enjoyable online shopping experience. At Hitkart, we are committed to bringing you a wide range of high-quality products at affordable prices, all in one convenient place.
 
 Our mission is to make shopping simple, fast, and reliable for everyone.
 
